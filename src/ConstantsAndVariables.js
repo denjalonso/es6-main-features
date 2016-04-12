@@ -12,3 +12,10 @@ export function divideSecondImplementation(x, y) {
     
     return result;
 }
+
+//creating objects from variables
+let firstName = "Denis Juan";
+let lastName = "Alonso Glez";
+let twitterId = "@denjalonso";
+
+export let speaker = {firstName, lastName, twitterId};
