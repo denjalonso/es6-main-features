@@ -10,3 +10,11 @@ function getDate() {
 }
 
 export var [day, month, year] = getDate();
+
+var speaker = {
+    firstName: "Denis Juan",
+    lastName: "Alonso González",
+    twitterId: "@denjalonso"
+}
+
+export var {firstName, lastName, twitterId} = speaker;

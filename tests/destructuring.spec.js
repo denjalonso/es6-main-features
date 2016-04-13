@@ -1,4 +1,4 @@
-import {primary, secondary, tertiary, otherColors, day, month, year} from "../src/destructuring";
+import {primary, secondary, tertiary, otherColors, day, month, year, firstName, lastName, twitterId} from "../src/destructuring";
 
 describe("destructuring", () => {
     describe("creating variables from array elements", () => {
@@ -20,6 +20,13 @@ describe("destructuring", () => {
             expect(day).toEqual(currentDay.getDate());
             expect(month).toEqual(currentDay.getMonth() + 1);
             expect(year).toEqual(currentDay.getFullYear());
+        });
+    });
+    describe("creating variables from object properties", () => {
+        it("should copy the suurce object values in the variables", () => {
+            expect(firstName).toBe("Denis Juan");
+            expect(lastName).toBe("Alonso González");
+            expect(twitterId).toBe("@denjalonso");
         });
     });
 });
