@@ -24,7 +24,7 @@ describe("another example with arrow function", () => {
     describe("arrow function as parameter", () => {
         let array = [1, 2, 3];
         it("should return the sum of numbers of an array", () => {
-            expect(arrowFunctions.sumOfArrayNumbers(array)).toEqual(6);
+            expect(arrowFunctions.sumArrayNumbers(array)).toEqual(6);
         });
     });
 });

@@ -6,7 +6,7 @@ export let greetingArrowSecondSintax = (message, name) => message + ' ' + name;
 
 export let greetingArrowSecondSintaxOneParameter = name => 'Hello ' + name;
 
-export let sumOfArrayNumbers =  (array) => {
+export let sumArrayNumbers =  (array) => {
     let total = 0;
     array.forEach(item => total += item)
     
